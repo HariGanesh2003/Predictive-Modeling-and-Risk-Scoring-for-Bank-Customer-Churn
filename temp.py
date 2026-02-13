@@ -102,7 +102,7 @@ st.markdown("""
 @st.cache_data
 def load_bank_data():
     # Replace with YOUR actual raw URL from GitHub
-    url = European_Bank - European_Bank.csv
+    url = https://github.com/HariGanesh2003/Predictive-Modeling-and-Risk-Scoring-for-Bank-Customer-Churn/blob/main/European_Bank%20-%20European_Bank.csv
     df = pd.read_csv(url)
     return df
 
@@ -293,6 +293,7 @@ account complexity is not translating into loyalty.
 - Monitor churn rate through a real-time dashboard and take proactive action.
 """)
 st.markdown('</div>', unsafe_allow_html=True)
+
 
 
 
